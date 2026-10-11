@@ -1,0 +1,18 @@
+
+# Database and payment configuration
+/config/database.php
+/config/payment.php
+.env
+
+# Uploaded book images and user uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# Backup files and ZIP archives
+*.zip
+*backup*
+
+# Temporary and system files
+.DS_Store
+Thumbs.db
+.vscode/
